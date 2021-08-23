@@ -5,4 +5,4 @@ var mid=Math.floor(min+(max-min)/2);if(d>=cidrs[mid][0]&&d<=cidrs[mid][1]){if(mo
 if(mode=="black"){return proxy;}}else if(d<cidrs[mid][0]){max=mid;}else{min=mid+1;}}
 if(mode=="white"){return proxy;}
 if(isPlainHostName(host)){return "DIRECT";}
-if(mode=="white"){return proxy;}
+if(mode=="white"){return proxy;}}
